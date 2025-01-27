@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "shoslearningmod",
+	"version": "${version}",
+	"name": "shos learning mod",
+	"description": "shos learning mod",
+	"authors": [
+		"sho"
+	],
+	"contact": {
+		"homepage": "https://example.com",
+		"sources": "https://github.com/shosprojects/slm"
+	},
+	"license": "MIT",
+	"icon": "assets/shoslearningmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"pl.sho.slm.ShosLearningMod"
+		],
+		"fabric-datagen": [
+			"pl.sho.slm.ShosLearningModDataGenerator"
+		],
+		"client": [
+			"pl.sho.slm.ShosLearningModClient"
+		]
+	},
+	"mixins": [
+		"shoslearningmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
