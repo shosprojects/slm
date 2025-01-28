@@ -1,4 +1,7 @@
 {
   "item.shoslearningmod.ball_ing": "Balling!",
-  "item.shoslearningmod.white_ball": "White ball"
+  "item.shoslearningmod.white_ball": "White ball",
+
+  "block.shoslearningmod.balling_block": "Balling block!! ⚪⚫",
+  "block.shoslearningmod.sad_block": ":("
 }
